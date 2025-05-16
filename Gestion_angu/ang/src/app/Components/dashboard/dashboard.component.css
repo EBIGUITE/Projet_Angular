@@ -1,0 +1,101 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden; /* Pour éviter que le contenu dépasse */
+}
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour que l'image couvre tout l'espace */
+    z-index: -1; /* Pour que l'image soit derrière le contenu */
+}
+
+
+.container {
+    background-color: #1e1e1e;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    opacity: 0,5;
+}
+
+h1 {
+    color: #bb86fc;
+    margin-bottom: 30px;
+}
+
+.d-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 30px 25px; /* Augmentation du padding vertical et horizontal */
+    border: none;
+    border-radius: 6px; /* Légèrement plus arrondi pour correspondre à la taille */
+    color: #fff;
+    font-size: 18px; /* Augmentation de la taille de la police */
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0;
+}
+
+.btn i {
+    margin-right: 12px; /* Augmentation de l'espacement de l'icône */
+    font-size: 1.3em; /* Légère augmentation de la taille de l'icône */
+}
+
+.btn-maison {
+    background-color: #00bcd4;
+}
+
+.btn-maison:hover {
+    background-color: #008ba7;
+}
+
+.btn-quartier {
+    background-color: #4caf50;
+}
+
+.btn-quartier:hover {
+    background-color: #388e3c;
+}
+
+.btn-categorie {
+    background-color: #ff9800;
+}
+
+.btn-categorie:hover {
+    background-color: #f57c00;
+}
+
+.btn-logout {
+    background-color: #f44336;
+}
+
+.btn-logout:hover {
+    background-color: #d32f2f;
+}
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
